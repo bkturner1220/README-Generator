@@ -23,48 +23,40 @@ function generateMarkdown(data) {
 
 ## About ${data.name} <a name='about'></a>
    ${data.about}
-
    
 ## Installation <a name='install'></a>
    ${data.install}
-
  
 ## Usage <a name='usage'></a>
    ${data.usage}   
-    
-  
+      
 ## Testing <a name='test'></a>
    ${data.testing}
 
 ## Screenshots <a name='screenshots'></a>
    <img src="${data.ssurl}" style="height:250px">
-
    
 ## Demo Video <a name='demo'></a>
    A video demonstration of this application can be found here <a href="${data.demovid}" target="_blank">${data.demovid}</a>.
-    
-   
+       
 ## Github Pages Link <a name='pages'></a>
-   <a href="${data.gitpages}" target="_blank">${data.gitpages}</a>
-
+   <a href="https://${data.gituser}.github.io/${data.gitrepo}" target="_blank">${data.gitpages}</a>
    
 ## Github Repo Link <a name='repo'></a>
-   <a href="${data.gitrepo}" target="_blank">${data.gitrepo}</a>
-  
-   
+   <a href="https://github.com/${data.gituser}/${data.gitrepo}" target="_blank">${data.gitrepo}</a>
+     
 ## Contact Information <a name='contact'></a>
-   ${data.contact}
+   Github Username: ${data.gituser}
+   Github: <a href="https://github.com/${data.gituser}/
    Email: <a href="mailto:${data.email}">${data.email}</a>
-
    
 ## License Information <a name='license'></a>
    The application is covered under ${data.license} license.
    ![License](https://img.shields.io/badge/License-${data.license}-blue)
    
 ## Contributions towards ${data.name} <a name='contributions'></a>
-   ${data.contribution}
-      
-   
+   ${data.contributions}
+         
 ## Additional Information <a name='info'></a>
    If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:${data.email}">${data.email}</a>.
 `;

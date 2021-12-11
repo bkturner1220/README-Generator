@@ -1,12 +1,12 @@
 
-# <style="text-transform:uppercase">nothing important</style> <div align="right">![License](https://img.shields.io/badge/License-Apache2.0-blue)</div>
+# Professional README Generator <div align="right">![License](https://img.shields.io/badge/License-MIT-blue)</div>
 
 ## Brief Description <a name='description'></a>
-   
+   A command line input interface to generate a profession README for applications.
 
 ## Table of Contents
    * [Brief Description](#description)
-   * [About nothing important](#about)
+   * [About Professional README Generator](#about)
    * [Installation](#install)
    * [Usage](#usage)
    * [Testing](#test)
@@ -19,8 +19,8 @@
    * [Contributions to Repo](#contributions)
    * [Additional Information](#info)
 
-## About nothing important <a name='about'></a>
-   
+## About Professional README Generator <a name='about'></a>
+   This was a SMU Coding boot camp project that I was assigned to develop.  I've created a command line interface using Node.js and Javascript to generate a professional README.md for my applications I develop in the future, as well as other develops may use for their applications.
 
    
 ## Installation <a name='install'></a>
@@ -28,7 +28,7 @@
 
  
 ## Usage <a name='usage'></a>
-      
+   command line:> node index.js which is followed by a set of inquirer prompts.  When prompted your answers will be then passed through to create your README.md   
     
   
 ## Testing <a name='test'></a>
@@ -47,21 +47,21 @@
 
    
 ## Github Repo Link <a name='repo'></a>
-   <a href="" target="_blank"></a>
+   <a href="https://github.com/bkturner1220/README-Generator" target="_blank">README-Generator</a>
   
    
 ## Contact Information <a name='contact'></a>
-   
-   Email: <a href="mailto:undefined">undefined</a>
+   Github: <a href="https://github.com/bkturner1220/
+   Email: <a href="mailto:bturner@texascdlprep.com">bturner@texascdlprep.com</a>
 
    
 ## License Information <a name='license'></a>
-   The application is covered under Apache2.0 license.
-  
+   The application is covered under MIT license.
+   ![License](https://img.shields.io/badge/License-MIT-blue)
    
-## Contributions for undefined <a name='contributions'></a>
-   
+## Contributions towards Professional README Generator <a name='contributions'></a>
+   SMU Coding Boot Camp / Inquirer / Central Grader for SMU Coding Boot Camp
       
    
 ## Additional Information <a name='info'></a>
-   If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:undefined">undefined</a>.
+   If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:bturner@texascdlprep.com">bturner@texascdlprep.com</a>.

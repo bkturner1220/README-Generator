@@ -1,11 +1,14 @@
 const fs = require('fs');
-// const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./Develop/utils/generateMarkdown.js');
 
-
 // array of questions for user
 const questions = [
+    {
+        type: 'input',
+        name: 'name',
+        message: 'What is the name of your Project?'
+    },
     {
         type: 'input',
         name: 'gituser',
@@ -13,13 +16,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'gitemail',
-        message: 'What is your Github email address?'
+        name: 'gitrepo',
+        message: 'Please provide your Github Repository Name for this Project:'
     },
     {
         type: 'input',
-        name: 'name',
-        message: 'What is the name of your Project?'
+        name: 'email',
+        message: 'What is your email address?'
     },
     {
         type: 'input',
@@ -36,7 +39,6 @@ const questions = [
         name: 'install',
         message: 'What installation commands for installing are needed for this Project:',
         default: 'npm i'
-
     },
     {
         type: 'input',
@@ -60,30 +62,15 @@ const questions = [
         message: 'Please provide a link to a demo video of your Project'
     },
     {
-        type: 'input',
-        name: 'gitrepo',
-        message: 'Please provide your Github Repository url is for this Project:'
-    },
-    {
-        type: 'input',
-        name: 'gitpages',
-        message: 'Please provide your Github Pages demo url is for this Project:'
-    },
-    {
-        type: 'input',
-        name: 'contact',
-        message: 'Please give any contact information you want to provide for this Project:'
-    },
-    {
         type: 'list',
         name: 'license',
-        message: 'What kind of license does your project have?',
+        message: 'What kind of license does your Project have?',
         choices: ['Apache2.0','GeneralPublic3.0','MIT','BSD2Clause', 'BSD3Clause', 'BoostSoftware1.0', 'CreativeCommonsZero1.0','EclipsePublic2.0','AfferoGeneralPublic3.0','GeneralPublic2.0','LesserGeneralPublic2.1','MozillaPublic2.0','TheUnlicense',]
     },
     {
         type: 'input',
-        name: 'contribution',
-        message: 'What contributions were made to you Project?'
+        name: 'contributions',
+        message: 'What contributions were made to your Project?'
     },
 
 ];
