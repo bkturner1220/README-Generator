@@ -12,14 +12,14 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
+//   console.log(data);
   return `
-# ${data.name}
-   ![License](https://img.shields.io/badge/License-MIT-blue)
-
+# ${data.name} <div align="right">![License](https://img.shields.io/badge/License-${data.license}-blue)</div>
+   
    ## Table of Contents
       * [Brief Description](#description)
       * [About Project](#about)
+      * [Usage](#usage)
       * [Installation](#install)
       * [Testing](#test)
       * [Screenshots](#screenshots)
@@ -41,11 +41,15 @@ function generateMarkdown(data) {
 
    <a name='install'></a>
    ## Installation
-      npm i
+      ${data.usage}   
+
+   <a name='install'></a>
+   ## Installation
+      ${data.install}
     
    <a name='test'></a>
    ## Testing
-      npm test
+      ${data.testing}
 
    <a name='screenshots'></a>  
    ## Screenshots
@@ -65,6 +69,7 @@ function generateMarkdown(data) {
   
    <a name='contact'></a>
    ## Contact Information
+      ${data.contact}
       Email: <a href="mailto:${data.email}">${data.email}</a>
 
    <a name='license'></a>

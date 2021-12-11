@@ -8,6 +8,16 @@ const generateMarkdown = require('./Develop/utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
+        name: 'gituser',
+        message: 'What is your Github username?'
+    },
+    {
+        type: 'input',
+        name: 'gitemail',
+        message: 'What is your Github email address?'
+    },
+    {
+        type: 'input',
         name: 'name',
         message: 'What is the name of your Project?'
     },
@@ -16,36 +26,60 @@ const questions = [
         name: 'description',
         message: 'Give a brief description of your Project:'
     },
-    {
-        type: 'input',
-        name: 'ssurl',
-        message: 'Please provide a link to a screenshot of your project'
-    },
+
     {
         type: 'input',
         name: 'about',
-        message: 'Please tell us about this Project:'
+        message: 'Please tell about this Project:'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide the usuage for this Project:'
+    },
+    {
+        type: 'input',
+        name: 'install',
+        message: 'What installation commands for installing are needed for this Project:',
+        default: 'npm i'
+
+    },
+    {
+        type: 'input',
+        name: 'testing',
+        message: 'What test commands for testing are needed for this Project:',
+        default: 'npm test'
+    },
+    {
+        type: 'input',
+        name: 'ssurl',
+        message: 'Please provide a link to a screenshot of your Project'
+    },
+    {
+        type: 'input',
+        name: 'demovid',
+        message: 'Please provide a link to a demo video of your Project'
     },
     {
         type: 'input',
         name: 'gitrepo',
-        message: 'Please tell us what your Github Repository url is for this Project:'
+        message: 'Please provide your Github Repository url is for this Project:'
     },
     {
         type: 'input',
         name: 'gitpages',
-        message: 'Please tell us what your Github Pages demo url is for this Project:'
+        message: 'Please provide your Github Pages demo url is for this Project:'
     },
     {
         type: 'input',
-        name: 'email',
-        message: 'What is your email address?'
+        name: 'contact',
+        message: 'Please give any contact information you want to provide for this Project:'
     },
     {
         type: 'list',
         name: 'license',
-        message: 'What kind of license should your project have?',
-        choices: ['None','Apache 2.0','GNU General Public v3.0','MIT','BSD 2-Clause "Simplified"', 'BSD 3-Clause "New" or "Revised"', 'Boost Software 1.0', 'Creative Commons Zero v1.0 Universal','Eclipse Public 2.0','GNU Affero General Public v3.0','GNU General Public v2.0','GNU Lesser General Public v2.1','Mozilla Public 2.0','The Unlicense',]
+        message: 'What kind of license does your project have?',
+        choices: ['Apache2.0','GeneralPublic3.0','MIT','BSD2Clause', 'BSD3Clause', 'BoostSoftware1.0', 'CreativeCommonsZero1.0','EclipsePublic2.0','AfferoGeneralPublic3.0','GeneralPublic2.0','LesserGeneralPublic2.1','MozillaPublic2.0','TheUnlicense',]
     },
     {
         type: 'input',

@@ -1,37 +1,70 @@
-# README.md Generator
 
-## Brief Description
+# readme <div align="right">![License](https://img.shields.io/badge/License-GNU-GeneralPublic-v3.0-blue)</div>
+   
+   ## Table of Contents
+      * [Brief Description](#description)
+      * [About Project](#about)
+      * [Usage](#usage)
+      * [Installation](#install)
+      * [Testing](#test)
+      * [Screenshots](#screenshots)
+      * [Demo Video](#demo)
+      * [Github Pages Link](#pages) 
+      * [Github Repo Link](#repo)
+      * [Contact Details](#contact)
+      * [License](#license)
+      * [Contributions to Repo](#contributions)
+      * [Additional Information](#info)
 
-A simple README.md generator to for a user to easily produce his README.md files for future projects.
+   <a name='description'></a>
+   ## Brief Description
+      sdrfog;nsondf:OESNF;dsjonfdJSnsdjklnfds
 
-## Screenshots
+   <a name='about'></a>
+   ## About Project
+      jndjsndfnjlsd j;fnds;jnfsdj;
 
-   <img src="" style="height:250px">
+   <a name='install'></a>
+   ## Installation
+      dsk'pdsm'fmmf   
 
-## About this Project
+   <a name='install'></a>
+   ## Installation
+      npm i
+    
+   <a name='test'></a>
+   ## Testing
+      npm test
 
-This project was constructed with npm inquirer. We propmt the user to input project details in order to generate a well formatted and consistent README.md.
+   <a name='screenshots'></a>  
+   ## Screenshots
+      <img src="http://duh.com" style="height:250px">
 
-## Github Repo Link
+   <a name='demo'></a>
+   ## Demo Video
+      A video demonstration of this application can be found here<a href="http://duh.com" target="_blank">http://duh.com</a>.
+    
+   <a name='pages'></a>
+   ## Github Pages Link
+      <a href="http://duh.com" target="_blank">http://duh.com</a>
 
-<a href="https://github.com/bkturner1220/README.md-Generator" target="_blank">https://github.com/bkturner1220/README.md-Generator</a>
+   <a name='repo'></a>
+   ## Github Repo Link
+      <a href="http://duh.com" target="_blank">http://duh.com</a>
+  
+   <a name='contact'></a>
+   ## Contact Information
+      none
+      Email: <a href="mailto:undefined">undefined</a>
 
-## Github Pages Link (Demo)
-
-<a href="https://bkturner1220.github.io/README-Generator/" target="_blank"></a>
-
-## Contact Information
-
-Email: <a href="mailto:bturner@texascdlprep.com">bturner@texascdlprep.com</a>
-
-## License Information
-
-The application is covered under MIT license.
-
-## Contributions for undefined
-
-SMU Coding Boot Camp
-
-## Additional Information
-
-If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:bturner@texascdlprep.com">bturner@texascdlprep.com</a>.
+   <a name='license'></a>
+   ## License Information
+      The application is covered under GNU-GeneralPublic-v3.0 license.
+  
+   <a name='contributions'></a>
+   ## Contributions for undefined
+      nothing
+      
+   <a name='info'></a>
+   ## Additional Information
+      If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:undefined">undefined</a>.
