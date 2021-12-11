@@ -1,5 +1,5 @@
 
-# <div style="text-transform:uppercase">nothing important</div> <div align="right">![License](https://img.shields.io/badge/License-Apache2.0-blue)</div>
+# <div style="text-transform:uppercase">nothing important</style></div> <div align="right">![License](https://img.shields.io/badge/License-Apache2.0-blue)</div>
 
 ## Brief Description <a name='description'></a>
    
