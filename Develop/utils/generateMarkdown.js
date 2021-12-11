@@ -14,35 +14,70 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   console.log(data);
   return `
- # ${data.name}
+# ${data.name}
+   ![License](https://img.shields.io/badge/License-MIT-blue)
 
-## Brief Description
-   ${data.description}
+   ## Table of Contents
+      * [Brief Description](#description)
+      * [About Project](#about)
+      * [Installation](#install)
+      * [Testing](#test)
+      * [Screenshots](#screenshots)
+      * [Demo Video](#demo)
+      * [Github Pages Link](#pages) 
+      * [Github Repo Link](#repo)
+      * [Contact Details](#contact)
+      * [License](#license)
+      * [Contributions to Repo](#contributions)
+      * [Additional Information](#info)
 
-## Screenshots
-   <img src="${data.ssurl}" style="height:250px">
+   <a name='description'></a>
+   ## Brief Description
+      ${data.description}
 
-## About this Project
-   ${data.about}
+   <a name='about'></a>
+   ## About Project
+      ${data.about}
 
-## Github Repo Link
-   <a href="${data.gitrepo}" target="_blank">${data.gitrepo}</a>
+   <a name='install'></a>
+   ## Installation
+      npm i
+    
+   <a name='test'></a>
+   ## Testing
+      npm test
+
+   <a name='screenshots'></a>  
+   ## Screenshots
+      <img src="${data.ssurl}" style="height:250px">
+
+   <a name='demo'></a>
+   ## Demo Video
+      A video demonstration of this application can be found here<a href="${data.demovid}" target="_blank">${data.demovid}</a>.
+    
+   <a name='pages'></a>
+   ## Github Pages Link
+      <a href="${data.gitpages}" target="_blank">${data.gitpages}</a>
+
+   <a name='repo'></a>
+   ## Github Repo Link
+      <a href="${data.gitrepo}" target="_blank">${data.gitrepo}</a>
   
-## Github Pages Link (Demo)
-   <a href="${data.gitpages}" target="_blank">${data.gitpages}</a>
+   <a name='contact'></a>
+   ## Contact Information
+      Email: <a href="mailto:${data.email}">${data.email}</a>
 
-## Contact Information
-   Email: <a href="mailto:${data.email}">${data.email}</a>
-
-## License Information
-   The application is covered under ${data.license} license.
+   <a name='license'></a>
+   ## License Information
+      The application is covered under ${data.license} license.
   
-## Contributions for ${data.title}
-
-   ${data.contribution}
-
-## Additional Information
-   If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:${data.email}">${data.email}</a>.
+   <a name='contributions'></a>
+   ## Contributions for ${data.title}
+      ${data.contribution}
+      
+   <a name='info'></a>
+   ## Additional Information
+      If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:${data.email}">${data.email}</a>.
 `;
 }
 
