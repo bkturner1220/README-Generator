@@ -1,7 +1,7 @@
 function generateMarkdown(data) {
 //   console.log(data);
   return `
-# ${data.name} <div align="right">![License](https://img.shields.io/badge/License-${data.license}-blue)</div>
+# ${data.name} ![License](https://img.shields.io/badge/License-${data.license}-blue)
 
 ## Brief Description 📖<a name='description'></a>
    ${data.description}
