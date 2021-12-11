@@ -26,16 +26,10 @@ const questions = [
         name: 'description',
         message: 'Give a brief description of your Project:'
     },
-
     {
         type: 'input',
         name: 'about',
-        message: 'Please tell about this Project:'
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'Please provide the usuage for this Project:'
+        message: 'Tell a little bit about your Project:'
     },
     {
         type: 'input',
@@ -43,6 +37,11 @@ const questions = [
         message: 'What installation commands for installing are needed for this Project:',
         default: 'npm i'
 
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide the usage for this Project:'
     },
     {
         type: 'input',
@@ -84,7 +83,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'What does the user need to know about contributing to the repo?'
+        message: 'What contributions were made to you Project?'
     },
 
 ];

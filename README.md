@@ -1,70 +1,67 @@
 
-# readme <div align="right">![License](https://img.shields.io/badge/License-GNU-GeneralPublic-v3.0-blue)</div>
+# <div align="left" style="text-transform:uppercase">the best readme</div> <div align="right">![License](https://img.shields.io/badge/License-MozillaPublic2.0-blue)</div>
+
+## Brief Description <a name='description'></a>
+   nothing really to say but the best
+
+## Table of Contents
+   * [Brief Description](#description)
+   * [About the best readme](#about)
+   * [Installation](#install)
+   * [Usage](#usage)
+   * [Testing](#test)
+   * [Screenshots](#screenshots)
+   * [Demo Video](#demo)
+   * [Github Pages Link](#pages) 
+   * [Github Repo Link](#repo)
+   * [Contact Details](#contact)
+   * [License](#license)
+   * [Contributions to Repo](#contributions)
+   * [Additional Information](#info)
+
+## About the best readme <a name='about'></a>
+   just a little about readmes
+
    
-   ## Table of Contents
-      * [Brief Description](#description)
-      * [About Project](#about)
-      * [Usage](#usage)
-      * [Installation](#install)
-      * [Testing](#test)
-      * [Screenshots](#screenshots)
-      * [Demo Video](#demo)
-      * [Github Pages Link](#pages) 
-      * [Github Repo Link](#repo)
-      * [Contact Details](#contact)
-      * [License](#license)
-      * [Contributions to Repo](#contributions)
-      * [Additional Information](#info)
+## Installation <a name='install'></a>
+   npm i
 
-   <a name='description'></a>
-   ## Brief Description
-      sdrfog;nsondf:OESNF;dsjonfdJSnsdjklnfds
-
-   <a name='about'></a>
-   ## About Project
-      jndjsndfnjlsd j;fnds;jnfsdj;
-
-   <a name='install'></a>
-   ## Installation
-      dsk'pdsm'fmmf   
-
-   <a name='install'></a>
-   ## Installation
-      npm i
+ 
+## Usage <a name='usage'></a>
+   its simple   
     
-   <a name='test'></a>
-   ## Testing
-      npm test
+  
+## Testing <a name='test'></a>
+   npm test
 
-   <a name='screenshots'></a>  
-   ## Screenshots
-      <img src="http://duh.com" style="height:250px">
+## Screenshots <a name='screenshots'></a>
+   <img src="http://test.com" style="height:250px">
 
-   <a name='demo'></a>
-   ## Demo Video
-      A video demonstration of this application can be found here<a href="http://duh.com" target="_blank">http://duh.com</a>.
+   
+## Demo Video <a name='demo'></a>
+   A video demonstration of this application can be found here <a href="http://test.com" target="_blank">http://test.com</a>.
     
-   <a name='pages'></a>
-   ## Github Pages Link
-      <a href="http://duh.com" target="_blank">http://duh.com</a>
+   
+## Github Pages Link <a name='pages'></a>
+   <a href="http://test.com" target="_blank">http://test.com</a>
 
-   <a name='repo'></a>
-   ## Github Repo Link
-      <a href="http://duh.com" target="_blank">http://duh.com</a>
+   
+## Github Repo Link <a name='repo'></a>
+   <a href="http://test.com" target="_blank">http://test.com</a>
   
-   <a name='contact'></a>
-   ## Contact Information
-      none
-      Email: <a href="mailto:undefined">undefined</a>
+   
+## Contact Information <a name='contact'></a>
+   me@me.com
+   Email: <a href="mailto:undefined">undefined</a>
 
-   <a name='license'></a>
-   ## License Information
-      The application is covered under GNU-GeneralPublic-v3.0 license.
+   
+## License Information <a name='license'></a>
+   The application is covered under MozillaPublic2.0 license.
   
-   <a name='contributions'></a>
-   ## Contributions for undefined
-      nothing
+   
+## Contributions for undefined <a name='contributions'></a>
+   nothing
       
-   <a name='info'></a>
-   ## Additional Information
-      If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:undefined">undefined</a>.
+   
+## Additional Information <a name='info'></a>
+   If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:undefined">undefined</a>.

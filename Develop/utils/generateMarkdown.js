@@ -14,75 +14,72 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
 //   console.log(data);
   return `
-# ${data.name} <div align="right">![License](https://img.shields.io/badge/License-${data.license}-blue)</div>
+# <div align="left" style="text-transform:uppercase">${data.name}</div> <div align="right">![License](https://img.shields.io/badge/License-${data.license}-blue)</div>
+
+## Brief Description <a name='description'></a>
+   ${data.description}
+
+## Table of Contents
+   * [Brief Description](#description)
+   * [About ${data.name}](#about)
+   * [Installation](#install)
+   * [Usage](#usage)
+   * [Testing](#test)
+   * [Screenshots](#screenshots)
+   * [Demo Video](#demo)
+   * [Github Pages Link](#pages) 
+   * [Github Repo Link](#repo)
+   * [Contact Details](#contact)
+   * [License](#license)
+   * [Contributions to Repo](#contributions)
+   * [Additional Information](#info)
+
+## About ${data.name} <a name='about'></a>
+   ${data.about}
+
    
-   ## Table of Contents
-      * [Brief Description](#description)
-      * [About Project](#about)
-      * [Usage](#usage)
-      * [Installation](#install)
-      * [Testing](#test)
-      * [Screenshots](#screenshots)
-      * [Demo Video](#demo)
-      * [Github Pages Link](#pages) 
-      * [Github Repo Link](#repo)
-      * [Contact Details](#contact)
-      * [License](#license)
-      * [Contributions to Repo](#contributions)
-      * [Additional Information](#info)
+## Installation <a name='install'></a>
+   ${data.install}
 
-   <a name='description'></a>
-   ## Brief Description
-      ${data.description}
-
-   <a name='about'></a>
-   ## About Project
-      ${data.about}
-
-   <a name='install'></a>
-   ## Installation
-      ${data.usage}   
-
-   <a name='install'></a>
-   ## Installation
-      ${data.install}
+ 
+## Usage <a name='usage'></a>
+   ${data.usage}   
     
-   <a name='test'></a>
-   ## Testing
-      ${data.testing}
+  
+## Testing <a name='test'></a>
+   ${data.testing}
 
-   <a name='screenshots'></a>  
-   ## Screenshots
-      <img src="${data.ssurl}" style="height:250px">
+## Screenshots <a name='screenshots'></a>
+   <img src="${data.ssurl}" style="height:250px">
 
-   <a name='demo'></a>
-   ## Demo Video
-      A video demonstration of this application can be found here<a href="${data.demovid}" target="_blank">${data.demovid}</a>.
+   
+## Demo Video <a name='demo'></a>
+   A video demonstration of this application can be found here <a href="${data.demovid}" target="_blank">${data.demovid}</a>.
     
-   <a name='pages'></a>
-   ## Github Pages Link
-      <a href="${data.gitpages}" target="_blank">${data.gitpages}</a>
+   
+## Github Pages Link <a name='pages'></a>
+   <a href="${data.gitpages}" target="_blank">${data.gitpages}</a>
 
-   <a name='repo'></a>
-   ## Github Repo Link
-      <a href="${data.gitrepo}" target="_blank">${data.gitrepo}</a>
+   
+## Github Repo Link <a name='repo'></a>
+   <a href="${data.gitrepo}" target="_blank">${data.gitrepo}</a>
   
-   <a name='contact'></a>
-   ## Contact Information
-      ${data.contact}
-      Email: <a href="mailto:${data.email}">${data.email}</a>
+   
+## Contact Information <a name='contact'></a>
+   ${data.contact}
+   Email: <a href="mailto:${data.email}">${data.email}</a>
 
-   <a name='license'></a>
-   ## License Information
-      The application is covered under ${data.license} license.
+   
+## License Information <a name='license'></a>
+   The application is covered under ${data.license} license.
   
-   <a name='contributions'></a>
-   ## Contributions for ${data.title}
-      ${data.contribution}
+   
+## Contributions for ${data.title} <a name='contributions'></a>
+   ${data.contribution}
       
-   <a name='info'></a>
-   ## Additional Information
-      If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:${data.email}">${data.email}</a>.
+   
+## Additional Information <a name='info'></a>
+   If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:${data.email}">${data.email}</a>.
 `;
 }
 
