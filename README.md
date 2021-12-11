@@ -1,31 +1,31 @@
 
-# readme <div align="right">![License](https://img.shields.io/badge/License-GNU-GeneralPublic-v3.0-blue)</div>
+# readme <div align="right">![License](https://img.shields.io/badge/License-GeneralPublic3.0-blue)</div>
    
    ## Table of Contents
-      * [Brief Description](#description)
-      * [About Project](#about)
-      * [Usage](#usage)
-      * [Installation](#install)
-      * [Testing](#test)
-      * [Screenshots](#screenshots)
-      * [Demo Video](#demo)
-      * [Github Pages Link](#pages) 
-      * [Github Repo Link](#repo)
-      * [Contact Details](#contact)
-      * [License](#license)
-      * [Contributions to Repo](#contributions)
-      * [Additional Information](#info)
+      [Brief Description](#description)
+      [About Project](#about)
+      [Usage](#usage)
+      [Installation](#install)
+      [Testing](#test)
+      [Screenshots](#screenshots)
+      [Demo Video](#demo)
+      [Github Pages Link](#pages) 
+      [Github Repo Link](#repo)
+      [Contact Details](#contact)
+      [License](#license)
+      [Contributions to Repo](#contributions)
+      [Additional Information](#info)
 
-   <a name='description'></a>
-   ## Brief Description
+   
+   ## Brief Description <a name='description'></a>
       sdrfog;nsondf:OESNF;dsjonfdJSnsdjklnfds
 
-   <a name='about'></a>
-   ## About Project
+   
+   ## About Project <a name='about'></a>
       jndjsndfnjlsd j;fnds;jnfsdj;
 
-   <a name='install'></a>
-   ## Installation
+   
+   ## Installation <a name='install'></a>
       dsk'pdsm'fmmf   
 
    <a name='install'></a>
