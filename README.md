@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # <div align="left" style="text-transform:uppercase">the best readme</div> <div align="right">![License](https://img.shields.io/badge/License-MozillaPublic2.0-blue)</div>
 
 ## Brief Description <a name='description'></a>
@@ -25,6 +26,36 @@
    
 ## Installation <a name='install'></a>
    npm i
+=======
+# readme <div align="right">![License](https://img.shields.io/badge/License-GeneralPublic3.0-blue)</div>
+   
+   ## Table of Contents
+      [Brief Description](#description)
+      [About Project](#about)
+      [Usage](#usage)
+      [Installation](#install)
+      [Testing](#test)
+      [Screenshots](#screenshots)
+      [Demo Video](#demo)
+      [Github Pages Link](#pages) 
+      [Github Repo Link](#repo)
+      [Contact Details](#contact)
+      [License](#license)
+      [Contributions to Repo](#contributions)
+      [Additional Information](#info)
+
+   
+   ## Brief Description <a name='description'></a>
+      sdrfog;nsondf:OESNF;dsjonfdJSnsdjklnfds
+
+   
+   ## About Project <a name='about'></a>
+      jndjsndfnjlsd j;fnds;jnfsdj;
+
+   
+   ## Installation <a name='install'></a>
+      dsk'pdsm'fmmf   
+>>>>>>> d6abc79e4fa10eb4d1c1e5621cb5d3f6e39c160b
 
  
 ## Usage <a name='usage'></a>
