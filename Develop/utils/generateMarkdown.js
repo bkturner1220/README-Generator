@@ -47,7 +47,7 @@ function generateMarkdown(data) {
      
 ## Contact Information <a name='contact'></a>
    Github Username: ${data.gituser}
-   Github: <a href="https://github.com/${data.gituser}/
+   Github: <a href="https://github.com/${data.gituser}/">https://github.com/${data.gituser}/</a>
    Email: <a href="mailto:${data.email}">${data.email}</a>
    
 ## License Information <a name='license'></a>
