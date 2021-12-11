@@ -14,7 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
 //   console.log(data);
   return `
-# <div align="left" style="text-transform:uppercase">${data.name}</div> <div align="right">![License](https://img.shields.io/badge/License-${data.license}-blue)</div>
+# <div style="text-transform:uppercase">${data.name}</div> <div align="right">![License](https://img.shields.io/badge/License-${data.license}-blue)</div>
 
 ## Brief Description <a name='description'></a>
    ${data.description}
