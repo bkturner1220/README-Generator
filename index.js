@@ -1,6 +1,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+var dir = './output';
+
 
 // array of questions for user
 const questions = [
@@ -85,12 +87,19 @@ function writeToFile(fileName, data) {
 
 // init function program
 function init() {
+    // see if dir(output) exist and if does not then create
+    if (! fs. existsSync(dir)){
+        fs. mkdirSync(dir, {
+            recursive: true
+        });
+        }
     //  Begin to ask questions with inquirer function
     inquirer.prompt(questions).then((answers) => {
         const data = generateMarkdown(answers);
         console.log(answers);
+
         // File created according to answers provided
-        writeToFile('README.md', data);
+        writeToFile('./output/README.md', data);
     })
 }
 
